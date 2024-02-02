@@ -1,0 +1,71 @@
+
+/* Hobbies */
+
+/* img {
+    height: auto;
+    width: 480px;
+} */
+
+/* .carousel-item {
+    height: 300px;
+    overflow: hidden;
+} */
+
+/* .carousel-control-next {
+    z-index: 2;
+} */
+
+.container-image {
+    margin-top: 75px;
+    /* border-radius: 30px; */
+}
+
+
+
+/* .d-block {
+    width: 70%;
+    object-fit: cover;
+} */
+
+/* .carousel-inner img {
+    border-radius: 30px;
+} */
+
+/* .carousel-inner img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+} */
+
+/* #carouselExampleCaptions { */
+    /* width: 80%; */
+    /* margin: auto;  */
+    /* Center the carousel on the screen */
+/* } */
+
+/* .carousel-inner {
+    width: 600px;
+} */
+
+ /* .carousel-inner { */
+    /* height: 0; */
+    /* height: 50vh; */
+    /* padding-top: 50%; */
+/* } */
+
+/* 1280 x 960 */
+.carousel-item .carousel-img {
+    /* width: 50%; */
+    width: 960px;
+    height: calc(960 * 0,75)px;
+    /* height: 67,5%; */
+    /* height: 75vh; */
+    /* object-fit: cover; */
+    /* object-position: center; */
+    /* height: calc((96/128) * 100 * 0.9); */
+    /* width: 100%; */
+    /* height: 100%; */
+    object-fit: contain;
+    background-color: white;
+    border-radius: 12px;
+}

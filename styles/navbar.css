@@ -1,0 +1,21 @@
+.navbar * {
+    background-color: var(--nav-color);
+    color: var(--background-color);
+    border-radius: 20px;
+    margin: 5px;
+    position: static;
+}
+
+.navbar-toggler,  .navbar-toggler-icon {
+    /* border: 2px solid var(--background-color); */
+    /* color: var(--background-color); */
+    background-color: var(--background-color);
+    margin: 0%;
+    /* padding: 0%; */
+    /* height: max-content; */
+    /* color: white; */
+}
+
+.light-mode .fa-solid {
+    cursor: pointer;
+}
