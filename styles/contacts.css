@@ -21,6 +21,11 @@
     width: 70%;
 }
 
+input {
+    border-style: solid;
+    border-color: black;
+}
+
 h1 {
     /* margin-left: 100px; */
     padding: 25px 0;

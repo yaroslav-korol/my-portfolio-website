@@ -1,23 +1,4 @@
-/* Variables */
-:root {
-    /* Base color: 60%. It should be neutral - White, creamy etc. in light mode.
-    And sort of dark color in dark mode */
-    --base-color: #F1F0EA;
-
-    /* Primary color - 30%. Brand color  */
-    --primary-color: #2E3532;
-
-    /* Secondary color - 10%. Action color - it says "Click me, use me". 
-    Set on buttons, important aries  */
-    --action-color: #07C550;
-
-    --font-color: #212529;
-    --background-color: #F1F0EA;
-    --nav-color: #2E3532;
-    /* --nav-color: #E2E2E2; */
-    /* --nav-color: #D4D7D9; */
-}
-
+/* Media */
 /* @media (prefers-color-scheme:light){
     body {
         background-color: var(--day-background-color);
@@ -39,13 +20,38 @@
 } */
 /* } */
 
+
+/* Variables */
+
+/* Color theme */
+:root {
+    /* Base color: 60%. It should be neutral - White, creamy etc. in light mode.
+    And sort of dark color in dark mode */
+    --base-color: #F1F0EA;
+    --background-color: #F1F0EA;
+
+    /* Primary color - 30%. Brand color  */
+    --primary-color: #2E3532;
+    --nav-background-color: #2E3532;
+
+    /* Secondary color - 10%. Action color - it says "Click me, use me". 
+    Set on buttons, important aries  */
+    --action-color: #07C550;
+
+    --font-color: #212529;
+    /* --nav-color: #E2E2E2; */
+    --nav-color: #D4D7D9;
+}
+
+
 .dark-theme {
     --font-color: #E2E2E2;
     --background-color: #1E1E1E;
+    --base-color: #1E1E1E;
+    --nav-background-color: black;
     --nav-color: black;
     --action-color: #E2E2E2;
 }
-
 
 /* General styles */
 body {
